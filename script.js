@@ -28,3 +28,10 @@ const perguntas = [
 }
 
 ]
+
+function mostraPergunta(){
+    caixaPerguntas.textContent = perguntas[1].enunciado;
+
+}
+
+mostraPergunta ();
