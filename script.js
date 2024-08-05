@@ -69,5 +69,5 @@ function respostaSelecionada(opcaoSelecionada){
     atual++;
     mostraPergunta();
 }
-
+}
 mostraPergunta ();
