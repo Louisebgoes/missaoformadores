@@ -46,6 +46,11 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta(){
+    if (atual >= perguntas.length){
+    mostraResultado();
+    return;
+    }
+
     perguntaAtual = perguntas[ atual]; 
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent="";
@@ -62,12 +67,21 @@ for( const alternativa of perguntaAtual.alternativas) {
     botaoAlternativa.addEventListener("click", () => respostaSelecionada(alternativa));
     caixaAlternativas.appendChild (botaoAlternativa);
 }
+}
 
 function respostaSelecionada(opcaoSelecionada){
     const afirmacao =  opcaoSelecionada.afirmacao;
-    historiaFinal = afirmacao;
+    historiaFinal += afirmacao + "";
     atual++;
     mostraPergunta();
 }
+
+function mostraResultado(){
+    caixaPerguntas.textContent = " Uma gota d´água pode ser apenas o começo..."
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = " ";
+
+
 }
+
 mostraPergunta ();
