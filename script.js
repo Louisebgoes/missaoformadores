@@ -9,10 +9,10 @@ const perguntas = [
     enunciado : "Como você acredita que podemos combater o racismo na sociedade?",
     alternativas: [
         {texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-        afirmacao:"Afirmação 1 "
+        afirmacao:"Respeitando todos "
         },
         {texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-        afirmacao:"afirmacao 2"
+        afirmacao:"Não passando pano em situações erradas"
         }
     ] 
 },
@@ -20,10 +20,10 @@ const perguntas = [
     enunciado : "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
     alternativas: [
         {texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-            afirmacao: "afirmação 3"
+            afirmacao: "Pesquisando a fonte de cada uma das informações"
         },
         {texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo",
-        afirmacao: "afirmação 4"
+        afirmacao: "Criar uma cultura de informação"
         }
     ] 
 },
@@ -31,10 +31,10 @@ const perguntas = [
     enunciado : "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
     alternativas: [
         {texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-            afirmacao: "afirmação 5"
+            afirmacao: "Divulgando formas alternativas de energia"
         },
         {texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-            afirmacao: "afirmação 6"
+            afirmacao: "Divulgar formas alternativas de energia"
         }
     ] 
 }
